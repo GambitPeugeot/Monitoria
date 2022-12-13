@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: blue;
+    background-color: lightblue;
     height: 100%;
     width: 100%;
 }
@@ -12,7 +12,7 @@ html{
     width: 100%;
 }
 header {
-    background-color: brown;
+    background-color: chocolate;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,21 @@ header {
     height: 25%;
     padding: 15px;
     margin: 15px;
+    height: 400px;
 }
 li{
     list-style-type: none;
+    padding: 10px;
+}
+.orange-circle{
+    border-style: solid;
+    border-color: orange;
+    border-radius: 35px;
+    background-color: orange;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+#borda-laranja-arredondada-dois{
+    align-self: flex-end;
 }
